@@ -1,8 +1,9 @@
-package cn.almostlover.jetpack
+package cn.almostlover.jetpack.viewmodel
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
+import cn.almostlover.jetpack.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

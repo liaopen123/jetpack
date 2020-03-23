@@ -1,4 +1,4 @@
-package cn.almostlover.jetpack
+package cn.almostlover.jetpack.viewmodel
 
 import androidx.lifecycle.ViewModel
 
