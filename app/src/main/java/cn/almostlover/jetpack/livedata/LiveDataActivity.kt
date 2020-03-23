@@ -14,7 +14,6 @@ class LiveDataActivity : AppCompatActivity() {
         setContentView(R.layout.activity_live_data)
         val data = ViewModelProvider(this).get(ViewModelWithLiveData::class.java)
         data.gotCount().observe(this, Observer<Int> {
-            print("firstInitfirstInitfirstInitfirstInit")
             textView2.text="$it"
         })
         imageButton.setOnClickListener {
