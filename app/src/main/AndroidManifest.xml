@@ -9,17 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".databinding.DataBindingActivity">
+        <activity android:name=".databinding.demo.BasketballActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".livedata.LiveDataActivity">
+        <activity android:name=".databinding.DataBindingActivity">
 
         </activity>
-        <activity android:name=".viewmodel.MainActivity"></activity>
+        <activity android:name=".livedata.LiveDataActivity"></activity>
+        <activity android:name=".viewmodel.MainActivity" />
     </application>
 
 </manifest>
