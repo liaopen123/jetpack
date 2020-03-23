@@ -72,7 +72,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="@{()->team.setBlueScore(2)}"
-                android:text="+2" />
+                android:text="+2"
+                tools:text="@tools:sample/date/ddmmyy" />
 
             <Button
                 android:layout_width="wrap_content"
